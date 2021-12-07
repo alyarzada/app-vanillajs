@@ -20,46 +20,51 @@
   </head>
   <body>
     <!-- home section -->
-    <section
-      class="home-section"
-    >
-        <nav class="navbar navbar-expand-lg navbar-light px-3">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Alyarzada</a>
-            <button
-              class="navbar-toggler"
-              type="button" 
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav mb-2 mb-lg-0 text-success">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
+    <section class="home-section">
+      <nav class="navbar navbar-expand-lg navbar-light px-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Alyarzada</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 text-success">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
 
       <main
-        class="d-flex align-items-center justify-content-center mt-md-0 mt-5 my-5 my-md-0"
+        class="
+          d-flex
+          align-items-center
+          justify-content-center
+          mt-md-0 mt-5
+          my-5 my-md-0
+        "
       >
         <div class="container">
           <div class="row align-items-center">
@@ -97,17 +102,32 @@
 
       <form class="contact-form">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
         <button type="button" class="close-btn border-0 bg-transparent">
@@ -118,19 +138,13 @@
 
     <!-- services section -->
 
-    <section class="services-section" id="services">
-      <div
-        class="
-          container
-          d-flex
-          flex-column
-          justify-content-center
-          align-items-center
-          vh-100
-        "
-      >
-        <h1 class="text-center text-uppercase">What we do ?</h1>
-        <div class="row justify-content-center gx-5 service">
+    <section
+      class="services-section text-center d-flex align-items-center"
+      id="services"
+    >
+      <div class="container-fluid">
+        <h1 class="text-uppercase">What we do ?</h1>
+        <div class="row gx-5 service">
           <div class="col-md-4 d-flex flex-column align-items-center">
             <img
               class="w-50"
@@ -174,7 +188,7 @@
             </p>
           </div>
         </div>
-        <button type="button" class="btn btn-primary rounded-pill">
+        <button type="button" class="btn btn-primary rounded-pill mt-3">
           All Services
         </button>
       </div>
@@ -182,11 +196,22 @@
 
     <!-- about us -->
 
-    <section class="about-us-section d-flex align-items-center" id="about">
-      <div class="container">
-        <h1 class="text-center">Why choose us ?</h1>
-        <div class="row">
-          <div class="col-md-6 d-flex flex-column justify-content-center">
+    <section
+      class="about-us-section d-flex align-items-center my-md-0 my-5"
+      id="about"
+    >
+      <div class="container-fluid">
+        <h1 class="text-center mt-5">Why choose us ?</h1>
+        <div class="row justify-content-center">
+          <div
+            class="
+              col-lg-5 col-md-6
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
             <h2>Why we're different ?</h2>
             <ul style="line-height: 2rem">
               <li>Understand our clients goals first</li>
@@ -196,7 +221,7 @@
               <li>We protect your online reputation</li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-5 col-md-6 d-flex justify-content-center">
             <img
               src="./images/Online presentation_Isometric.png"
               alt="image"
@@ -208,17 +233,13 @@
     </section>
 
     <!-- contact section -->
-    <section class="contact-section" id="contact">
-      <div
-        class="
-          container-fluid
-          d-flex
-          flex-column
-          justify-content-between
-          vh-100
-        "
-      >
-        <header class="text-center">
+    <section
+      class="contact-section"
+      id="contact"
+    >
+      <div class="container-fluid d-flex vh-100 flex-column justify-content-between">
+        <div style="height:20px"></div>
+        <header class="text-center contact-header">
           <h1 class="text-uppercase mb-4">find us on social media</h1>
           <div class="social-media-icons d-flex justify-content-center gap-3">
             <i class="fab fa-facebook-square fa-2x"></i>
@@ -227,35 +248,47 @@
             <i class="fab fa-whatsapp-square fa-2x"></i>
           </div>
         </header>
-        <footer class="row text-light">
-            <div class="col-md-4">
-              <h3>Logo</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, ratione culpa odit enim atque doloremque aliquid! Obcaecati illo qui fugiat iusto explicabo! Excepturi dolorem cum sequi sunt id vero tempore!</p>
-            </div>
-            <div class="col-md-4 d-flex align-items-center flex-column">
-              <h3>Contact us</h3>
-              <ul class=" list-unstyled">
-                <li>
-                  <i class="fas fa-map-marker-alt"></i>
-                  <span>World trade center,Baku</span></li>
-                <li>
-                  <i class="fas fa-phone-square-alt"></i>
-                  <span>+1 013597421</span></li>
-                <li>
-                  <i class="fas fa-envelope"></i>
-                  <span>xyz@gmail.com</span></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h3 class="text-capitalize">get in touch</h3>
-              <form>
-                <input type="email" placeholder="your email" class="form-control">
-                <button type="submit" class="btn btn-light">Subscribe</button>
-              </form>
-            </div>
-            <p class='text-center'>Website created by Alyarzada</p>
+        <footer class="row text-light justify-content-between text-center text-md-start text-md-white">
+          <div class="col-md-4">
+            <h3>Logo</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Veritatis, ratione culpa odit enim atque doloremque aliquid!
+              Obcaecati illo qui fugiat iusto explicabo! Excepturi dolorem cum
+              sequi sunt id vero tempore!
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3>Contact us</h3>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>World trade center,Baku</span>
+              </li>
+              <li>
+                <i class="fas fa-phone-square-alt"></i>
+                <span>+1 013597421</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>xyz@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-capitalize">get in touch</h3>
+            <form>
+              <input
+                type="email"
+                placeholder="your email"
+                class="form-control mb-2"
+              />
+              <button type="submit" class="btn btn-light">Subscribe</button>
+            </form>
+          </div>
+          <p class="text-center text-muted">Website created by Alyarzada</p>
           <svg
-            class="contact-wave position-absolute bottom-0 left-0"
+            class="contact-wave d-none d-md-block position-absolute bottom-0 left-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 320"
           >

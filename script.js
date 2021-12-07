@@ -38,17 +38,10 @@ window.addEventListener('scroll', function () {
   navbar.classList.toggle('fixed', window.scrollY > 0);
 });
 
-// const tl = gsap.timeline(
-//     {
-//         scrollTrigger: {
-//             trigger
-//         }
-//     }
-// )
-
+// service section animation
 gsap.from('.service', {
   scrollTrigger: '.service',
   opacity:0,
-  scale:0,
+  scale:0.8,
   duration:1
 });

@@ -63,6 +63,8 @@ section {
     padding: 3rem;
   }
 
+ 
+
   .show-form{
     display: block;
   }
@@ -78,6 +80,13 @@ section {
 /* about us */
 
 /* contact */
+
+@media only screen and (max-width: 768px) {
+  .text-md-white{
+    color: #000 !important;
+  }
+}
+
 
 .contact-wave{
   z-index: -999;
